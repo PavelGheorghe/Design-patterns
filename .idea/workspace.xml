@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1faa366d-bcd4-4918-80f0-660d61c564be" name="Default Changelist" comment="" />
+    <list default="true" id="1faa366d-bcd4-4918-80f0-660d61c564be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioral/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Composite/MusicInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Composite/PlayList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/Composite/Song.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Structural/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +26,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j5aNI3ambcIau8dCUGJVA39xpH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,11 +38,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Structural" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Structural" />
+      <recent name="$PROJECT_DIR$/src/Creational" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -35,11 +60,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603096364632</updated>
-      <workItem from="1603096365685" duration="2687000" />
+      <workItem from="1603096365685" duration="3591000" />
+      <workItem from="1603107833994" duration="9008000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="782" y="243" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1603201233030">
+      <screen x="67" y="37" width="1853" height="1053" />
+    </state>
+    <state x="782" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603137326951" />
+    <state x="782" y="243" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.37.1853.1053/1920.0.1920.1080@67.37.1853.1053" timestamp="1603201233030" />
+    <state x="620" y="282" width="737" height="561" key="NewPhpClassDialog" timestamp="1603201179178">
+      <screen x="67" y="37" width="1853" height="1053" />
+    </state>
+    <state x="620" y="282" width="737" height="561" key="NewPhpClassDialog/67.37.1853.1053/1920.0.1920.1080@67.37.1853.1053" timestamp="1603201179178" />
+    <state x="718" y="476" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603200053096">
+      <screen x="67" y="37" width="1853" height="1053" />
+    </state>
+    <state x="718" y="476" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.37.1853.1053/1920.0.1920.1080@67.37.1853.1053" timestamp="1603200053096" />
   </component>
 </project>
