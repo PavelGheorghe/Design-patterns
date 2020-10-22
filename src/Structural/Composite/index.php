@@ -3,7 +3,7 @@
 use DesignePatternsInPHP\Structural\Composite\PlayList;
 use DesignePatternsInPHP\Structural\Composite\Song;
 
-require __DIR__ . './../../vendor/autoload.php';
+require __DIR__ . './../../../vendor/autoload.php';
 
 
 $playList = new PlayList();
