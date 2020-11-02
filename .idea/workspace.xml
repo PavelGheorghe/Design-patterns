@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1faa366d-bcd4-4918-80f0-660d61c564be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/Context.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/Strategy1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/Strategy2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/StrategyInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Behavioral/Strategy/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioral/Observer/Observer1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioral/Observer/Observer2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioral/Observer/Subject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Behavioral/Observer/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Behavioral/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +35,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Behavioral/Strategy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Behavioral/Observer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="INHERIT" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Behavioral/Observer" />
       <recent name="$PROJECT_DIR$/src/Behavioral/Strategy" />
       <recent name="$PROJECT_DIR$/src/Structural/Composite" />
       <recent name="$PROJECT_DIR$/src/Structural/Adapter" />
       <recent name="$PROJECT_DIR$/src/Structural" />
-      <recent name="$PROJECT_DIR$/src/Creational" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +64,8 @@
       <workItem from="1603107833994" duration="10360000" />
       <workItem from="1603260889264" duration="2984000" />
       <workItem from="1603348237258" duration="2117000" />
-      <workItem from="1603808790010" duration="3007000" />
+      <workItem from="1603808790010" duration="3648000" />
+      <workItem from="1604315637013" duration="3065000" />
     </task>
     <servers />
   </component>
@@ -74,16 +73,20 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="782" y="243" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1603809678914">
-      <screen x="67" y="37" width="1853" height="1053" />
+    <state x="782" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1604317724981">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="782" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603274384490" />
+    <state x="782" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1604317724981" />
     <state x="782" y="243" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.37.1853.1053/1920.0.1920.1080@67.37.1853.1053" timestamp="1603809678914" />
-    <state x="620" y="282" width="729" height="561" key="NewPhpClassDialog" timestamp="1603809793868">
-      <screen x="67" y="37" width="1853" height="1053" />
+    <state x="620" y="272" width="729" height="561" key="NewPhpClassDialog" timestamp="1604317707796">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="620" y="272" width="721" height="561" key="NewPhpClassDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603274642329" />
+    <state x="620" y="272" width="729" height="561" key="NewPhpClassDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1604317707796" />
     <state x="620" y="282" width="729" height="561" key="NewPhpClassDialog/67.37.1853.1053/1920.0.1920.1080@67.37.1853.1053" timestamp="1603809793868" />
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1604316910263">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1604316910263" />
     <state x="718" y="476" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603200053096">
       <screen x="67" y="37" width="1853" height="1053" />
     </state>
